@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we are setting the variable called name to the string 'Dane'
+// then we are creating a conditional checking the variable name to see if it is 
+// equivilant to 'Mary'. if it was it would log out to the console 'Hi, Mary!'
+// it isnt so instead it will log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// creating an empty variable secret and setting variable code to 123
+// checking the conditional is variable code equivilant to 123, it is so set secret to 
+// string 'super'. then code gets set to its value times 2 so it becomes 246.
+// conditional to check if code is greater than 250, it isnt so secret stays 'super'
+// then logs the value of secret which is 'super' to the console
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// sets the variable isStudent to the boolean value of true, age to 34, and zip to 55407
+// checking conditionals isStudent is true but for this to be true zip also needs to be greater 
+// than 80000. it isnt so this console log is skipped. in the second conditional only one needs
+// to be true because of the or opporator, but neither conditional is met so this console log
+// is also skipped. isStudent is true and since that is the only conditional 'Welcome to Prime!'
+// is logged to the console. since one of the conditionals was met the else also gets skipped.
 
 //CODE
 /*
@@ -115,7 +118,7 @@ let number = 1;
 
 // FIX - number-- decrements number, but the instructions ask to increment. 
 // Should be number++.
-number--; 
+number++; 
 
 if (number >= 2) {
   console.log('yes');
@@ -130,12 +133,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = colorOne;
 }
 */
 
@@ -147,7 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -160,10 +164,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
+if(age >= minAge) {
+  console.log('entry');
 } else {
-  console.log('enter');
+  console.log('no enter');
 }
 */
 
